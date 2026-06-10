@@ -3,7 +3,7 @@ from main import calculate_total_revenue
 
 class TestCalculateRevenue(unittest.TestCase):
     def test_booked_and_cancelled_tickets(self):
-        tickets = [
+        tickets =[
             {
                 "ticket_id": "T01",
                 "price": 500.0,
