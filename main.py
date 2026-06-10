@@ -6,7 +6,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-ticket_db = [
+ticket_db =[
     {
         "ticket_id": "T01",
         "buyer_name": "Nguyen Van A",
